@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import Pannel from "../components/pannel";
+import Separator from "../components/separator";
 
 export const meta: MetaFunction = () => {
   return [
@@ -10,8 +11,9 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="yfont-sans">
+    <div className="">
       <Pannel/>
+      <Separator/>
     </div>
   );
 }

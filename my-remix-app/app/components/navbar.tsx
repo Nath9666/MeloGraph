@@ -12,12 +12,14 @@ const Navbar: React.FC = () => {
   return (
     <nav className="yrelative ybg-white yz-50">
       <div className="yflex yitems-center yjustify-between ypx-4 ypy-2">
-        <a href="/about" className="yw-1/12"> A propos</a>
+        <a href="/about" className="yw-1/12 yhidden sm:yblock">
+          A propos
+        </a>
         <a
           href="/"
           className="ytext-black hover:ytext-blue-200 yflex yitems-center yjustify-center"
         >
-          <img src="./logo.png" alt="Logo" className="yw-1/6" />
+          <img src="./logo.png" alt="Logo" className="sm:yw-1/6 yw-1/4" />
         </a>
         <div onClick={toggleMenu} className="ycursor-pointer">
           {isMenuOpen ? (
@@ -44,6 +46,11 @@ const Navbar: React.FC = () => {
             <li>
               <a href="/commandes" className="yblock ypx-4 ypy-2 ytext-black">
                 ma commandes
+              </a>
+            </li>
+            <li className="sm:yhidden yblock">
+              <a href="/about" className="yblock ypx-4 ypy-2 ytext-black">
+                A propos
               </a>
             </li>
           </ul>

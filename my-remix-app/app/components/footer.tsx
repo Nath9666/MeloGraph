@@ -29,7 +29,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="yflex yflex-col ybg-white ypy-4 yjustify-center yitems-center">
+    <footer className="yflex yflex-col ybg-white ypy-4 yjustify-center yitems-center yz-50">
       <div className="ycontainer ymx-auto yflex yjustify-center yitems-center">
         <div className="yflex yspace-x-4">
           {info.map((item, index) => {
