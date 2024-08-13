@@ -10,6 +10,26 @@
   font-style: normal;
 }
 
+:root {
+  --primary-color: #0f74ef;
+  --secondary-color: #ee8f06;
+  --tertiary-color: #000000;
+}
+
 .special-text {
   font-family: "Arsenica", sans-serif;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(
+    to bottom,
+    var(--tertiary-color),
+    var(--secondary-color),
+    var(--primary-color)
+  );
+}
+
+/* styles.css */
+.bg-gradient-to-left {
+  background: linear-gradient(to left, white, transparent);
 }

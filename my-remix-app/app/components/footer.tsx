@@ -48,6 +48,7 @@ const Footer = () => {
           })}
         </div>
       </div>
+      <img src="./logo.png" alt="Logo" className="sm:yw-1/4 yw-1/3" />
       <span>2023-{Year}</span>
     </footer>
   );

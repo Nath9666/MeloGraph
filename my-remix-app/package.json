@@ -1,5 +1,5 @@
 {
-  "homepage":"https://Nath9666.github.io/MeloGraph",
+  "homepage": "https://Nath9666.github.io/MeloGraph",
   "name": "melo_graph",
   "private": true,
   "sideEffects": false,
@@ -14,11 +14,14 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
     "@remix-run/node": "^2.11.1",
     "@remix-run/react": "^2.11.1",
     "@remix-run/serve": "^2.11.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.1.8",
     "framer-motion": "^11.3.24",
     "isbot": "^4.1.0",
     "lucide-react": "^0.427.0",
