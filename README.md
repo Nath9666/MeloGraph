@@ -35,7 +35,7 @@ En tant que client :
 - je veux pouvoir faire des commandes afin d'avoir mon dessein
 - je veux pouvoir prendre rendez vous pour definir ma commandes
 - je veux pouvoir voir les retour des autres clients
-- voir le nombre de commandes
+- voir le nombre de commandes et suivi de commandes
 
 En tant que Mel:
 
@@ -45,4 +45,4 @@ En tant que Mel:
 En tant que Cyril:
 
 - je veux pouvoir editer un devis
-- voir le nombre de personnes
+- voir le nombre de personnes, voir les cookies ( le chemin d'un utilisateurs)
