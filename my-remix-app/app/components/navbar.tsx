@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="yrelative ybg-white yz-50">
       <div className="yflex yitems-center yjustify-between ypx-4 ypy-2">
-        <a href="/about" className="yw-1/12 yhidden sm:yblock">
+        <a href="/about" className="yw-1/12 yhidden sm:yblock special-text">
           A propos
         </a>
         <a
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       </div>
       <div className="yabsolute ybottom-0 yleft-0 yw-full yh-1 ybg-gradient-to-r yfrom-blue-900 yvia-blue-500 yto-transparent"></div>
       {isMenuOpen && (
-        <div className="yabsolute ytop-full yleft-0 yw-full ybg-white yshadow-md ybg-opacity-80">
+        <div className="yabsolute ytop-full yleft-0 yw-full ybg-white yshadow-md ybg-opacity-80 special-text">
           <ul className="yflex yjustify-around">
             <li>
               <a href="/rendez-vous" className="yblock ypx-4 ypy-2 ytext-black">
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a href="/commandes" className="yblock ypx-4 ypy-2 ytext-black">
-                ma commandes
+                ma commande
               </a>
             </li>
             <li className="sm:yhidden yblock">

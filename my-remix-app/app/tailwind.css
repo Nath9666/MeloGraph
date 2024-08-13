@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Arsenica";
+  src: url("../public/fonts/arsenica/ArsenicaTrial-Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.special-text {
+  font-family: "Arsenica", sans-serif;
+}
