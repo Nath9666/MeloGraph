@@ -12,14 +12,14 @@ const Navbar: React.FC = () => {
   return (
     <nav className="yrelative ybg-white yz-50">
       <div className="yflex yitems-center yjustify-between ypx-4 ypy-2">
-        <a href="/about"> A propos</a>
+        <a href="/about" className="yw-1/12"> A propos</a>
         <a
           href="/"
-          className="ytext-black hover:ytext-blue-200 yp-4 yflex yitems-center"
+          className="ytext-black hover:ytext-blue-200 yflex yitems-center yjustify-center"
         >
-          <img src="./favicon.ico" alt="Logo" className="h-8 w-8" />
+          <img src="./logo.png" alt="Logo" className="yw-1/6" />
         </a>
-        <div onClick={toggleMenu} className="cursor-pointer">
+        <div onClick={toggleMenu} className="ycursor-pointer">
           {isMenuOpen ? (
             <XMarkIcon className="yh-6 yw-6 ytext-black" />
           ) : (
