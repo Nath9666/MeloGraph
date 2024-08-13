@@ -21,6 +21,12 @@ export default function Index() {
         isTextOnRight={true}
         imageUrl="./images/template.jpeg"
       />
+      <Theme
+        text="Fantastique"
+        description="Ce thème regroupe les images de dessins animés japonais. Cela peut être des images de manga, d'anime ou de pancarte. Elle regroupe des images de Hunter X Hunter, Yuri on Ice et L'attaque des titans ainsi que d'autres oeuvres issues de la pop culture japonaise."
+        isTextOnRight={false}
+        imageUrl="./images/template.jpeg"
+      />
     </div>
   );
 }
