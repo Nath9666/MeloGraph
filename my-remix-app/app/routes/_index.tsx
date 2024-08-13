@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import Pannel from "../components/pannel";
+import BlurIn from "../components/@/components/magicui/blur-in";
 
 export const meta: MetaFunction = () => {
   return [
@@ -10,7 +11,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
+    <div className="yfont-sans">
       <Pannel></Pannel>
     </div>
   );

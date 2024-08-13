@@ -3,7 +3,7 @@ const images = [
     name: "Template",
     src: "./images/template.jpeg",
     alt: "Template",
-    number: 22,
+    number: 24,
     themes: ["Template"],
   },
 ];
