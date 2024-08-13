@@ -4,10 +4,12 @@ import { cn } from "./@/lib/utils";
 import Marquee from "./@/components/magicui/marquee";
 
 const expandedImages = images.flatMap((image) =>
-  Array.from({ length: image.number }, (_, index) => ({
-    ...image,
-    key: `${image.name}-${index}`,
-  }))
+  image.favorite
+    ? Array.from({ length: image.number }, (_, index) => ({
+        ...image,
+        key: `${image.name}-${index}`,
+      }))
+    : []
 );
 
 function shuffleArray(array: any[]) {
@@ -40,7 +42,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "yrelative yh-36 yw-full ycursor-pointer yoverflow-hidden yrounded-xl yborder ymy-2",
+        "yrelative yh-auto yw-full ycursor-pointer yoverflow-hidden yrounded-xl yborder ymy-2",
         // light styles
         "yborder-gray-950/[.1] ybg-gray-950/[.01] hover:ybg-gray-950/[.05]",
         // dark styles
